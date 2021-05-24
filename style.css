@@ -1,15 +1,22 @@
 * {
-    margin: ;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
 }
 
 .box1 {
     display: flex;
     flex-wrap: wrap;
     background-color: pink;
-    justify-content: space-evenly;
-    padding: 40px;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
     align-items: center;
 }
 
@@ -19,35 +26,20 @@
 
 .box2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin-top: 5px;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    gap: 5px;
-}
-
-.item2 {
-    flex-wrap: wrap;
-    background-color: violet;
-    overflow: hidden;
-    width: 100%;
-}
-
-.item3 {
-    flex-wrap: wrap;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: 5px;
-    height: 500px;
-    overflow: hidden;
+    position: relative;
+    gap: 10px;
 }
 
 .box3 {
     display: flex;
     flex-wrap: wrap;
     background-color: whitesmoke;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
     padding: 40px;
     align-items: center
 }
@@ -55,13 +47,4 @@
 .box4 {
     margin-top: 5px;
     overflow: hidden;
-}
-
-.amg1 {
-    width: 846px;
-    height: auto;
-}
-
-.amg2 {
-    width: height: auto;
 }
